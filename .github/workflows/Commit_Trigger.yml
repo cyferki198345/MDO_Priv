@@ -1,8 +1,11 @@
-name: Commit Trigger
+name: Labs
 
 on:
   push:
     branches: [master]
+    
+permission:
+  contents: read
     
 jobs:
   build:
